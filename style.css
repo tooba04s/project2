@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.upperContainer {
+  background-color: black;
+}
+.headerColor {
+  background-color: #1b1b1b !important;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+#navbarNav ul {
+  display: flex;
+
+  width: 90%;
+  justify-content: space-between;
+}
+#navbarNav a {
+  color: #9c9c9c;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.iconsContainer {
+  color: #9c9c9c;
+
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.textcolor {
+  color: #9c9c9c;
+}
+.navbar-toggler {
+  color: white !important;
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.fa-solid {
+  transition: transform 0.3s ease-in-out;
+}
+.fa-solid:hover {
+  transform: scale(1.2);
+}
+.custom-btn-styling {
+  background-color: #3f8e00;
+  border: none;
+
+  box-shadow: 0 5px 15px -2px #3f8e00;
+  border-radius: 2px;
+  font-size: 15px;
+  width: 12rem;
+}
+.custom-btn-styling:hover {
+  background-color: #376b0d;
+}
+.custom-img-width {
+  width: 20rem;
+}
+.custom-width {
+  width: min(600px, 80vw);
+}
+.custom-padding {
+  color: white !important;
+}
+.custom-img-width {
+  max-width: 100%;
+  height: auto;
+}
+
+.finctech {
+  background-color: #fff6e9;
+  border-radius: 5px;
+  color: #ffa217;
+  border: none;
+}
+.Pharma-btn-color {
+  background-color: #2ab090;
+  border-radius: 5px;
+  border: none;
+}
+.finctech-btn-color {
+  background-color: #ffa217;
+}
+.edTech-btn-color {
+  background-color: #000aff;
+}
+.edTech {
+  background-color: #d0e6ff;
+  border-radius: 5px;
+  color: #000aff;
+  border: none;
+}
+.Pharma {
+  background-color: #e0fff8;
+  border-radius: 5px;
+  color: #2ab090;
+  border: none;
+}
+
+.testimonial-card {
+  color: #9c9c9c;
+
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  border-right: none;
+  position: relative;
+}
+.quote {
+  font-size: 70px;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  color: white;
+}
+.client-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.client-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.client-name {
+  font-weight: bold;
+}
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.form-control {
+  background-color: white;
+  color: black;
+}
+.btn-submit {
+  background-color: #3f8e00;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 5px 10px rgba(0, 255, 0, 0.3);
+}
+.footer {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.footer span {
+  color: red;
+}
+input:focus {
+  outline: none !important;
+  border: none !important;
+}
+@media (min-width: 992px) {
+  .custom-padding {
+    padding-left: 110px;
+  }
+}
